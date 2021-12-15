@@ -1,0 +1,188 @@
+.home-body{
+    background-image: url('img/white-flowers-minimal.jpg') ;
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+.smallInitials{
+  visibility: hidden;
+}
+h2{   
+   height: 10vh;
+   font-size: 80px;
+   color: #00458B;
+   margin: 0%;
+   padding: 0px;
+}
+
+
+h4{
+    color: rgba(126,213,234,.85);
+    font-size: 48px;
+    margin: 0px;
+  
+}
+.brandStatement{
+    margin-top: 3%;
+    font-size: 96px;
+    color: rgba(239, 13, 80, .95);
+    margin:0px;
+}
+.statementTitle{
+  justify-content: center;
+  align-self: flex-end;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+.firstName{
+    margin-top: 10%;
+    margin-left: 5%;
+    
+}
+.lastName{
+    margin-top: 20%;
+    transform: rotate(90deg);  
+    justify-content: right;
+}
+.statementAnimation{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Dev{
+  padding-top: 3%;
+}
+
+
+#scroll-down-animation {
+   
+    position: relative;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+  }
+  
+  .mouse {
+    margin-top: 3%;
+    margin-right: 2%;
+    display: block;
+    border-radius: 50px;
+    border: 5px solid #fff;
+    height: 55px;
+    width: 30px;
+    position: relative;
+  }
+  
+  .move {
+    position: absolute;
+    background-color: #fff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: move 2s linear infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(-50%,5px);
+      opacity: 0.5 ;
+    }
+    50% {
+      transform: translate(-50%,20px);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(-50%,40px);
+      opacity: 0;
+    }
+  }
+  @media (max-width:600px){
+        .home-body{
+          background-image: url('img/white-flowers-minimal.jpg');
+         
+          width: fit-content;
+          height: 300px;
+          display: flex;
+        }
+        .smallInitials{ 
+          visibility: visible;  
+          height: 10vh;
+          font-size: 24px;
+          color: #00458B;
+          margin-top: 2%;
+          margin-left: 3%;
+          padding: 0px;
+        }
+       .firstName{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        
+        }
+       .lastName{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+       }
+       .brandStatement{
+        justify-content: center;
+        
+        font-size: 32px;
+        color: rgba(239, 13, 80, .95);
+        margin:0px;
+      }
+      .Dev{
+        padding-top: 3%;
+        font-size: 20px;
+      }
+      #scroll-down-animation {
+   
+        position: relative;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%,-20%);
+      }
+      
+      .mouse {
+        margin-top: 3%;
+        margin-right: 2%;
+        display: block;
+        border-radius: 50px;
+        border: 3px solid #fff;
+        height: 25px;
+        width: 20px;
+        position: relative;
+      }
+      
+      .move {
+        position: absolute;
+        background-color: #fff;
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: move 2s linear infinite;
+      }
+      
+      @keyframes move {
+        0% {
+          transform: translate(-50%,1px);
+          opacity: 0.5 ;
+        }
+        50% {
+          transform: translate(-50%,10px);
+          opacity: 1;
+        }
+        100% {
+          transform: translate(-50%,20px);
+          opacity: 0;
+        }
+      }
+  }
+  

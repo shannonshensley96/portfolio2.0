@@ -1,0 +1,314 @@
+.miniProject{
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
+.miniScroll{
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
+.PageTitle{
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 0%;
+  padding-top: 10%;
+}
+
+#projects{
+  padding: left 0.2em;
+  color: #EF0D50;
+  font-size: 72px;
+  margin-bottom: 0%;
+}
+
+.recentProjects{
+  background-color: #FFFFFF;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+article{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 20px;
+  background-color: rgba(126, 213, 234, .25);
+  margin-left: 1%;
+  margin-right: 1%;
+ 
+ 
+}
+p{
+
+  width: 80%;
+  color:rgba(38, 32,26, .85) ;
+  font-size: 18px;
+
+  
+}
+.techStack{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.techUsed{
+  font-weight: bold;
+}
+.title{
+  
+   color: #00458B;
+   font-family: 'Lato', sans-serif;
+   font-size: 36px;
+   padding: 10px;
+   margin: 0%;
+
+}
+
+#websiteLink{
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px;
+  color: #EF0D50; ;
+ 
+ 
+}
+#github{
+  font-weight: bold;
+  font-size: 22px;
+  color:rgba(38, 32,26, .85);
+}
+.weblinks{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+
+  
+}
+
+.p2skillsImage{
+  padding-top: 0%;
+  background-image: url("./projectImg/project2skills.png");
+  height: 120px;
+  width: 430px;
+ 
+}
+.p3skillsImage{
+  background-image: url("./projectImg/project3skills.png");
+  height: 120px;
+  width: 430px;
+}
+.p4skillsImage{
+  background-image: url("./projectImg/project4Skills.png");
+  height: 120px;
+  width: 430px;
+}
+.p2img{
+ 
+  background-image: url("./projectImg/rRimg2.png");
+  height: 320px;
+  width: 400px;
+  
+ 
+}
+.p3img{
+  background-image: url("./projectImg/hTimg.png");
+  height: 320px;
+  width: 400px;
+  background-repeat: no-repeat;
+  
+}
+.p4img{
+  background-image: url("./projectImg/hLimg.png");
+  height: 320px;
+  width: 400px;
+  background-repeat: no-repeat;
+  
+}
+@media (max-width:600px) {
+  .miniScroll{
+    visibility: visible;
+    background-color: white;
+    padding-top: 5px;
+    height: 25px;
+    width: 100%;
+  }
+  .project{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+  }
+  .miniProject{
+    visibility: visible;
+    height: 100%;
+    width: 210px;
+  }
+  .PageTitle{
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 0%;
+    padding-top: 8%;
+    padding-right: 3%;
+  }
+  
+  #projects{
+    padding: left 0.2em;
+    color: #EF0D50;
+    font-size: 24px;
+    margin-bottom: 0%;
+  }
+  
+  .recentProjects{
+    background-color: #FFFFFF;
+    padding-left: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: row; 
+    height:300px;
+    overflow-x: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .recentProjects ::-webkit-scrollbar{
+    width: 0;
+  }
+  article{
+    /* display: flex;
+    flex-direction: column;
+    justify-items: center; */
+    border-radius: 10px;
+    background-color: rgba(126, 213, 234, .35);
+    margin-bottom: 1%; 
+    padding-right: 1%;
+    padding-left:1%;
+  }
+
+  #p2{
+    margin-left: 35%;
+  }
+  #p4{
+    margin-right: 10%;
+  }
+
+  p{
+    
+    margin-left: 5%;
+    width: 90%;
+    color:rgba(38, 32,26, .85) ;
+    font-size: 9px;
+  
+    
+  }
+  .techStack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .techUsed{
+    text-align: center;
+    font-weight: bold;
+  }
+  .title{
+    text-align: center;
+     color: #00458B;
+     font-family: 'Lato', sans-serif;
+     font-size: 18px;
+     padding: 0px;
+     margin: 0%;
+  
+  }
+  .title2{
+    text-align: center;
+     color: #00458B;
+     font-family: 'Lato', sans-serif;
+     font-size: 16px;
+     padding: 0px;
+     margin: 0%;
+  }
+  
+  #websiteLink{
+    font-size: 10px;
+    font-weight: bolder;
+    border:0;
+    padding: .5px;
+    border-radius: 5px;
+    color: #EF0D50;
+  
+    padding-bottom: .5%;
+    margin-bottom: .5%;
+  }
+  #github{
+    font-size: 10px;
+    color:rgba(38, 32,26, .85);
+    font-weight: bold;
+   
+  }
+  .weblinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    
+  }
+  
+  .p2skillsImage{
+    padding-top: 0%;
+    background-image: url("./projectImg/miniProject2stack.png");
+    height: 45px;
+    width: 200px;
+   
+  }
+  .p3skillsImage{
+
+    background-image: url("./projectImg/miniProject3stack.png");
+    height: 45px;
+    width: 200px;
+  }
+  .p4skillsImage{
+    background-image: url("./projectImg/miniProject4stack.png");
+    height: 45px;
+    width: 200px;
+  }
+  .p2img{
+  
+    background-image: url("./projectImg/rRimgMini.png");
+    height: 100px;
+    width: 120px;
+    background-repeat: no-repeat;
+    
+    
+   
+  }
+  .p3img{
+    background-image: url("./projectImg/hTimgMini.png");
+    height: 100px;
+    width: 120px;
+    background-repeat: no-repeat;
+    
+  }
+  .p4img{
+    background-image: url("./projectImg/hLimgMini.png");
+    height: 100px;
+    width: 120px;
+    background-repeat: no-repeat;
+    padding-bottom: 3%;
+    
+  }
+}

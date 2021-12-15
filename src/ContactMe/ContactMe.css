@@ -1,0 +1,84 @@
+#contactMe{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+.contactMePage{
+    background-image: url("./img/white-flowers-minimal.jpg");
+    width: 100%;
+}
+#pageTitle{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 96px;
+    color:#FDD935;
+}
+
+#social-links{
+    color: #EF0D50;
+    font-size: 64px;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+.miniLink{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+.Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 45%;
+}
+
+@media (max-width:600px) {
+    #contactMe{
+    
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+    }
+    .contactMePage{
+        background-image: url("./img/white-flowers-minimal.jpg");
+        width:100%;
+        height: fit-content;
+    }
+    #pageTitle{
+        margin-top: 0%;
+        text-align: center;
+        font-size: 42px;
+        margin-bottom: 1%;
+        color: #EF0D50;
+    }
+    
+    #social-links{
+        
+        color:#FDD935;
+        margin-bottom: 5px;
+        font-size: 36px;
+        
+        
+    }
+    .largeLink{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    .miniLink{
+        visibility: visible;
+        width: 100%;
+        height: 100%;
+        color: white;
+    }
+    .Links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 10%;
+        margin-bottom: 25%;
+    }
+}

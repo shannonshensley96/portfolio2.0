@@ -1,0 +1,21 @@
+#personalPhoto{
+    
+    background-image: url("./aboutMeImg/portfolioPhotoLarge.png");
+    width: 650px;
+    height: 700px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0%;
+}
+@media (max-width:600px) {
+    #personalPhoto{
+        background-image: url("./aboutMeImg/miniProfilePicture.png");
+        width: 170px;
+        height: 200px;
+        display: flex;
+       
+        align-items: baseline;
+        margin-bottom: 0%;
+        margin-left: 0%;
+    }
+}

@@ -1,0 +1,12 @@
+#skillsImage{
+    background-image: url(skillsImg/skillsImage.png);
+    height: 150px;
+    width: 750px;
+}
+@media (max-width:600px) {
+    #skillsImage{
+        background-image: url(skillsImg/miniSkillsImage.png);
+        height: 55px;
+        width: 200px;
+    }
+}
