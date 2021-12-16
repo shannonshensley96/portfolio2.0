@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5861e805.css",
+    "main.js": "/static/js/main.500a801a.js",
+    "static/js/787.6d3cac63.chunk.js": "/static/js/787.6d3cac63.chunk.js",
+    "static/media/white-flowers-minimal.jpg": "/static/media/white-flowers-minimal.76086c0162f3617ce0a9.jpg",
+    "static/media/portfolioPhotoLarge.png": "/static/media/portfolioPhotoLarge.997543f1f2758c147608.png",
+    "static/media/hTimg.png": "/static/media/hTimg.504ccad7f88cb20bd33e.png",
+    "static/media/hLimg.png": "/static/media/hLimg.87e1dac095771fa7106b.png",
+    "static/media/miniProfilePicture.png": "/static/media/miniProfilePicture.eda1429544410fd1e125.png",
+    "static/media/rRimg2.png": "/static/media/rRimg2.9fb2b19cf95ec1d61196.png",
+    "static/media/skillsImage.png": "/static/media/skillsImage.bfd2a4fbf3554cde0194.png",
+    "static/media/hTimgMini.png": "/static/media/hTimgMini.f670bdf6c77ec7956d3c.png",
+    "static/media/project4Skills.png": "/static/media/project4Skills.ab42415a105c26466a24.png",
+    "static/media/project3skills.png": "/static/media/project3skills.a8b836d8feaf9a0fcb1c.png",
+    "static/media/project2skills.png": "/static/media/project2skills.b9f8d21d3f7dee882565.png",
+    "static/media/hLimgMini.png": "/static/media/hLimgMini.283b124ee1029803c247.png",
+    "static/media/rRimgMini.png": "/static/media/rRimgMini.31246801f67d401a7915.png",
+    "static/media/miniProject2stack.png": "/static/media/miniProject2stack.a6ad5cd509f87851f0fa.png",
+    "static/media/miniProject3stack.png": "/static/media/miniProject3stack.61e1e1ecf2dd1ef9d112.png",
+    "static/media/miniSkillsImage.png": "/static/media/miniSkillsImage.41995a465bada0a40f54.png",
+    "static/media/miniProject4stack.png": "/static/media/miniProject4stack.38d9972769daa9621e78.png",
+    "index.html": "/index.html",
+    "main.5861e805.css.map": "/static/css/main.5861e805.css.map",
+    "main.500a801a.js.map": "/static/js/main.500a801a.js.map",
+    "787.6d3cac63.chunk.js.map": "/static/js/787.6d3cac63.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5861e805.css",
+    "static/js/main.500a801a.js"
+  ]
+}
