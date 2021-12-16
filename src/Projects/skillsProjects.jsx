@@ -22,7 +22,7 @@ export default function Project(){
                 <Project4 class="item" id="p4"/>
            
         </div>
-        <CgScrollH class="miniScroll" color="grey" size="10px"/>
+        <CgScrollH class="miniScroll" color="grey" />
         </>
         
     )
