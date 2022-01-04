@@ -1,7 +1,7 @@
 import './App.css';
 import AboutMe from './aboutMe/aboutMe';
 import Project from './Projects/skillsProjects';
-import NavBar from './skills/navBar/navBar';
+import NavBar from './navBar/navBar';
 
 import LandingPage from './landingPage/landingPage';
 

@@ -3,7 +3,7 @@ import "./skillsProjects.css"
 import Project2 from "./p2/p2";
 import Project3 from "./p3/p3";
 import Project4 from "./p4/p4";
-// import {CgScrollH} from "react-icons/cg"
+import {CgScrollH} from "react-icons/cg"
 
 
 
@@ -22,7 +22,7 @@ export default function Project(){
                 <Project4 class="item" id="p4"/>
            
         </div>
-        {/* <CgScrollH class="miniScroll" color="grey" /> */}
+        <CgScrollH class="miniScroll" color="grey" />
         </>
         
     )
